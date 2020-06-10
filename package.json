@@ -11,5 +11,9 @@
     "url": "r2dve"
   },
   "author": "Rich Yap",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ebook-convert": "^2.0.1",
+    "gitbook-publish": "^1.0.3"
+  }
 }

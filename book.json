@@ -1,13 +1,11 @@
 {
-    "plugins" : [],
+    "plugins": ["download-pdf-link"],
     "pluginsConfig": {
-        "sharing": {
-            "facebook": false,
-            "twitter": false,
-            "google": false,
-            "weibo": false,
-            "instapaper": false,
-            "vk": false
+      "download-pdf-link": {
+        "base": "https://github.com/richdayandnight/r2dve/tree/master",
+        "label": {
+            "en": "Download PDF"
         }
+      }
     }
-}
+  }
