@@ -3,4 +3,5 @@
 * [Introduction](README.md)
 * [Data Visualization Engineer](chapter1.md)
 * [Resources](resources.md)
+* [Data Visualization](data-visualization.md)
 
