@@ -12,9 +12,8 @@
   },
   "author": "Rich Yap",
   "license": "ISC",
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-load-plugins": "^2.0.3"
+  "dependencies": {
+    "ebook-convert": "^2.0.1",
+    "gitbook-publish": "^1.0.3"
   }
 }
