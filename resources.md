@@ -1,36 +1,25 @@
-# Resources
+# Tools and Resources
 
-# D3
+# Tools
+- D3
+    - Book
+        - ⭐ [Interactive Data Visualization for the Web, 2nd Edition](https://www.oreilly.com/library/view/interactive-data-visualization/9781491921296/) by Scott Murray
+        - [D3.js in Action, Second Edition](https://www.oreilly.com/library/view/d3js-in-action/9781617294488/) by Elijah Meeks
+        - [Fullstack D3 and Data Visualization](https://www.newline.co/fullstack-d3) by Amelia Wattenberger
+    - Tutorial
+        - ⭐ [Intro to D3](https://www.youtube.com/watch?v=219xXJRh4Lw) by Michael Menz
+        - [13 hour course Free Full Tutorial Course - Freecodecamp](https://www.youtube.com/watch?v=_8V5o2UHG0E) by Curran Kelleher
+    - Website (Learn by reading other people's code)
+        - [bl.ocks.org](https://bl.ocks.org/)
+        - [Observable](https://observablehq.com/)
+            - notebooks built for data analysis, visualization, and exploration
+- Greensock
+- React
 
-## What is D3
+Note: 
+⭐ - personally recommend 
 
-* Data-Driven Documents \(name is a clever allusion of W3\)
-
-* Documents are web-based documents 
-
-## What it does
-
-* Loading data into the browser's memory
-* Binding data to elements within the document, creating new elements as needed
-* Transforming those elements by interpreting each element's bound datum and setting its visual properties accordingly.
-* Transitioning elements between states in response to user input.
-
-
-
-## What we're working with
-
-1. DOM \(Document Object Model\)
-
-2. Html \(Hypertext Markup Language\) particularly the SVG element
-
-3. CSS \(Cascading Style Sheets\)
-4. JS \(Javascript\)
-
-### How do these relate with each other?
-
-* The Document Object Model \(DOM\) is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document \(Wikipedia def\). Through a process called **rendering**, the browser is able to display a webpage by parsing HTML, applying visual rules listed in the CSS, and generating DOM.
-
-
-
-
-
+# Common Tech Stacks
+- D3.js + HTML + CSS
+- React.js + D3.js
+- React.js + D3.js + Greensock

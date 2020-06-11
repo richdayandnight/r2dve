@@ -1,4 +1,4 @@
-# Road to becoming a Data Visualization Engineer
+# Data Visualization Handbook
 
 This is a book written in GitBook
 
