@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>5 D3 · GitBook</title>
+        <title>2 Data Visualization · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="d3-notes.html" />
+    <link rel="next" href="1-1-Interactive-Data-Viz.html" />
     
     
-    <link rel="prev" href="../resources.html" />
+    <link rel="prev" href="../" />
     
 
     </head>
@@ -102,9 +102,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="../data-visualization/1 The Why, What, and How.html">
+        <li class="chapter active" data-level="1.2" data-path="1 The Why, What, and How.html">
             
-                <a href="../data-visualization/1 The Why, What, and How.html">
+                <a href="1 The Why, What, and How.html">
             
                     
                     2 Data Visualization
@@ -116,9 +116,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="../data-visualization/1-1-Interactive-Data-Viz.html">
+        <li class="chapter " data-level="1.2.1" data-path="1-1-Interactive-Data-Viz.html">
             
-                <a href="../data-visualization/1-1-Interactive-Data-Viz.html">
+                <a href="1-1-Interactive-Data-Viz.html">
             
                     
                     2.1 Interactive Data Visualization
@@ -129,9 +129,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="../data-visualization/2 History.html">
+        <li class="chapter " data-level="1.2.2" data-path="2 History.html">
             
-                <a href="../data-visualization/2 History.html">
+                <a href="2 History.html">
             
                     
                     2.2 History
@@ -142,9 +142,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="../data-visualization/3 examples-of-data-viz-online.html">
+        <li class="chapter " data-level="1.2.3" data-path="3 examples-of-data-viz-online.html">
             
-                <a href="../data-visualization/3 examples-of-data-viz-online.html">
+                <a href="3 examples-of-data-viz-online.html">
             
                     
                     2.3 Example
@@ -205,9 +205,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5" data-path="./">
+        <li class="chapter " data-level="1.5" data-path="../d3-notes/">
             
-                <a href="./">
+                <a href="../d3-notes/">
             
                     
                     5 D3
@@ -219,9 +219,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="d3-notes.html">
+        <li class="chapter " data-level="1.5.1" data-path="../d3-notes/d3-notes.html">
             
-                <a href="d3-notes.html">
+                <a href="../d3-notes/d3-notes.html">
             
                     
                     D3 notes
@@ -267,7 +267,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >5 D3</a>
+        <a href=".." >2 Data Visualization</a>
     </h1>
 </div>
 
@@ -282,30 +282,39 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="d3">D3</h1>
-<h2 id="what-is-d3">What is D3</h2>
+                                <h1 id="all-about-data-visualization">All about Data Visualization</h1>
+<h2 id="what-is-data-visualization">What is Data Visualization?</h2>
 <ul>
-<li>Data-Driven Documents (name is a clever allusion of W3)</li>
-<li>Documents are web-based documents </li>
-</ul>
-<h2 id="what-it-does">What it does</h2>
+<li><p>A graphical representation of information and data</p>
 <ul>
-<li>Loading data into the browser&apos;s memory</li>
-<li>Binding data to elements within the document, creating new elements as needed</li>
-<li>Transforming those elements by interpreting each element&apos;s bound datum and setting its visual properties accordingly.</li>
-<li>Transitioning elements between states in response to user input.</li>
+<li>Data is raw, unorganized facts -&gt; Information is processed data, organized such that it&apos;s useful</li>
 </ul>
-<h2 id="what-were-working-with">What we&apos;re working with</h2>
+</li>
+</ul>
+<h2 id="why-do-data-visualization">Why do Data Visualization?</h2>
 <ol>
-<li>DOM (Document Object Model)</li>
-<li>Html (Hypertext Markup Language) particularly the SVG element</li>
-<li>CSS (Cascading Style Sheets)</li>
-<li>JS (Javascript)</li>
+<li>Data Analysis - &quot;making sense of data&quot;</li>
+<li><p>Communication </p>
+<ol>
+<li>Data Visualization is the fastest way to communicate data to others</li>
+<li>Human are intensely visual creatures that even youn children can interpret bar charts</li>
 </ol>
-<h3 id="how-do-these-relate-with-each-other">How do these relate with each other?</h3>
-<ul>
-<li>The Document Object Model (DOM) is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document (Wikipedia def). Through a process called <strong>rendering</strong>, the browser is able to display a webpage by parsing HTML, applying visual rules listed in the CSS, and generating DOM.</li>
-</ul>
+</li>
+<li><p>Warning: We must be warned that when we do data visualization, we must be honest and careful as they can also be used to lie, mislead or distort truth.</p>
+</li>
+</ol>
+<h2 id="which-data-visualization-to-make">Which Data Visualization to make?</h2>
+<h3 id="types-of-data-visualization">Types of Data Visualization</h3>
+<h4 id="according-to-how-we-interact-with-the-data-visualization">According to how we interact with the data visualization</h4>
+<ol>
+<li>Static</li>
+<li>Interactive</li>
+</ol>
+<h4 id="according-to-the-use-of-the-data-visualization">According to the use of the data visualization</h4>
+<ol>
+<li>Exploratory</li>
+<li>Explanatory</li>
+</ol>
 
                                 
                                 </section>
@@ -333,12 +342,12 @@
 
             
                 
-                <a href="../resources.html" class="navigation navigation-prev " aria-label="Previous page: 4 List of Tools and Resources">
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: 1 Introduction">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="d3-notes.html" class="navigation navigation-next " aria-label="Next page: D3 notes">
+                <a href="1-1-Interactive-Data-Viz.html" class="navigation navigation-next " aria-label="Next page: 2.1 Interactive Data Visualization">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -349,7 +358,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"5 D3","level":"1.5","depth":1,"next":{"title":"D3 notes","level":"1.5.1","depth":2,"path":"d3-notes/d3-notes.md","ref":"d3-notes/d3-notes.md","articles":[]},"previous":{"title":"4 List of Tools and Resources","level":"1.4","depth":1,"path":"resources.md","ref":"resources.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["download-pdf-link"],"pluginsConfig":{"download-pdf-link":{"label":"Download PDF","base":"https://github.com/richdayandnight/r2dve/blob/gh-pages/book.pdf"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"d3-notes/README.md","mtime":"2020-06-15T15:19:06.661Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-16T15:45:22.276Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"2 Data Visualization","level":"1.2","depth":1,"next":{"title":"2.1 Interactive Data Visualization","level":"1.2.1","depth":2,"path":"data-visualization/1-1-Interactive-Data-Viz.md","ref":"data-visualization/1-1-Interactive-Data-Viz.md","articles":[]},"previous":{"title":"1 Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["download-pdf-link"],"pluginsConfig":{"download-pdf-link":{"label":"Download PDF","base":"https://github.com/richdayandnight/r2dve/blob/gh-pages/book.pdf"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"data-visualization/1 The Why, What, and How.md","mtime":"2020-06-16T15:15:50.964Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-16T15:45:22.276Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
