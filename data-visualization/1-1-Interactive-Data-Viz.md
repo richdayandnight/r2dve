@@ -1,11 +1,10 @@
-# Interactive Data Visualization 
+# Interactive Data Visualization
 
 ## Why do interactive Data Visualization?
 
 * Interactive visualization empowers people to explore data for themselves.
 
-* History: `Ben Shneiderman (in 1996) of Univ. of Maryland proposed the design pattern of “Visual Information-Seeking Mantra”: overview first, zoom and filter, then details-on demand.
-  `
+* History: `Ben Shneiderman (in 1996) of Univ. of Maryland proposed the design pattern of “Visual Information-Seeking Mantra”: overview first, zoom and filter, then details-on demand.`
 
 ## Why on the web?
 

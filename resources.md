@@ -1,6 +1,14 @@
 # Tools and Resources
 
-# Tools
+## General Resources
+
+- Data Storytelling
+    - ⭐ [Storytelling with Data: A Data Visualization Guide for Business Professionals](https://www.amazon.com/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257) by Cole Nussbaumer Knaflic
+    - [Introduction to Data Visualization & Storytelling: A Guide For The Data Scientist](https://www.amazon.com/Introduction-Data-Visualization-Storytelling-Scientist-ebook/dp/B07VYCR3Z6) by Jose Berengueres, Marybeth Sandell, and Ali Fenwick
+
+
+## Tools
+
 - D3
     - Book
         - ⭐ [Interactive Data Visualization for the Web, 2nd Edition](https://www.oreilly.com/library/view/interactive-data-visualization/9781491921296/) by Scott Murray
@@ -15,11 +23,12 @@
             - notebooks built for data analysis, visualization, and exploration
 - Greensock
 - React
+- 
+Note:
+⭐ - personally recommend
 
-Note: 
-⭐ - personally recommend 
+## Common Tech Stacks
 
-# Common Tech Stacks
 - D3.js + HTML + CSS
 - React.js + D3.js
 - React.js + D3.js + Greensock
