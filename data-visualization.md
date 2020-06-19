@@ -4,7 +4,7 @@
 
 * A graphical representation of information and data
 
-  * Data is raw, unorganized facts -&gt; Information is processed data, organized such that it's useful
+* Data is raw, unorganized facts -&gt; Information is processed data, organized such that it's useful
 
 
 ## Why do Data Visualization?
