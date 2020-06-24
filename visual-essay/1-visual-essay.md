@@ -20,7 +20,7 @@
    2. Things to consider while developing
       1. Mobile responsiveness
       2. Type of interaction
-            1. Scroll ⭐⭐⭐ 
+            1. Scroll ⭐⭐⭐
             2. Stack ⭐⭐
                 - use of static charts and images
                 - less dev tim
